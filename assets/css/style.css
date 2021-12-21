@@ -992,12 +992,13 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
   background: #fff;
-  max-width: 75%;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #000000;
   text-align: left;
   padding: 15px;
   font-weight: 600;
