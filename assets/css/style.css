@@ -995,6 +995,16 @@ section {
   max-width: 100%;
   margin-bottom: 20px;
 }
+.contact .php-email-form .label {
+  
+  padding-top: 16px;
+  padding-left: 20px;
+
+  font-size: 14px;
+  color: #777777;
+  font-weight: 400;
+  
+}
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;

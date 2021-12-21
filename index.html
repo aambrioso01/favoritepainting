@@ -497,7 +497,10 @@
               </div>
 
               <div class="row">
-                <div class="form-group mt-3">
+                <div class="col-md-4 form-group label">
+                  <p>Type of project:</p>
+                </div>
+                <div class="form-group mt-3 col-md-6">
                   <select name = "dropdown">
                     <option value = "Interior Painting" selected>Interior Painting</option>
                     <option value = "Exterior Painting">Exterior Painting</option>
@@ -509,6 +512,11 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
+
+              <div class="form-group mt-3">
+                <input type="file" name="attachment" accept="image/png, image/jpeg">
+              </div>
+
               <div class="my-3">
                 <div class="loading">Loading</div>
                 
