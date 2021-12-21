@@ -476,49 +476,24 @@
           <h2>Contact us</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>855 NE 7th Place, Gainesville, FL 32601</p>
-            </div>
-          </div>
+        <div class="row justify-content-center">
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>favoritepaintingcompany@gmail.com</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-2 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
               <p>+1(813)841-7084</p>
             </div>
           </div>
-
-        </div>
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-6 align-self-center">
-            <iframe class="mb-4 mb-lg-0"
-              src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Gainesville%2C%20FL+(Title)&amp;ie=UTF8&amp;t=&amp;z=8&amp;iwloc=B&amp;output=embed"
-              frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <img src="assets/img/cami-tony-paint-sticker.png" alt="" class="img-fluid"></img>
-          </div>
-
-          <!--
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="col-lg-8">
+            <form action="https://formsubmit.co/favoritepaintingcompany@gmail.com" method="POST" class="php-email-form">
               <div class="row">
+                <input type="hidden" name="_template" value="table">
+
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type="hidden" name="_subject" value="New painting request!">
+
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
@@ -527,7 +502,11 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <select name = "dropdown">
+                  <option value = "Interior Painting" selected>Interior Painting</option>
+                  <option value = "Exterior Painting">Exterior Painting</option>
+                  <option value = "Other">Other</option>
+               </select>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
@@ -540,7 +519,19 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-           -->
+
+          <div class="col-lg-6 align-self-center">
+            <iframe class="mb-4 mb-lg-0"
+              src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Gainesville%2C%20FL+(Title)&amp;ie=UTF8&amp;t=&amp;z=8&amp;iwloc=B&amp;output=embed"
+              frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <img src="assets/img/cami-tony-paint-sticker.png" alt="" class="img-fluid"></img>
+          </div>
+        </div>
+          
+          
 
         </div>
 
